@@ -1,0 +1,163 @@
+.navBar {
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    padding: 3px 25px;
+    background-color: #423C7A;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo span {
+    font-size: 24px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #FFD000;
+}
+
+.mainNavbarBlock {
+    display: flex;
+    align-items: center;
+}
+
+.mainList {
+    margin: 0;
+    display: flex;
+    align-items: baseline;
+    height: 54px;
+}
+
+.mainList>li {
+    cursor: pointer;
+    padding-top: 10px;
+    position: relative;
+    list-style: none;
+    height: 54px;
+    margin: 0 8px;
+}
+
+.mainList>li>a {
+    font-size: 24px;
+    display: flex;
+    align-items: end;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.mainList>li>a:hover {
+    color: #FFD000;
+}
+
+.downIcon {
+    display: block;
+    margin-left: 5px;
+}
+
+.content {
+    display: none;
+    min-width: 186px;
+    width: 100%;
+    top: 54px;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+}
+
+.content a {
+    color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.content a:hover {
+    color: #FFD000;
+}
+
+.active{
+    color: #FFD000 !important;
+}
+
+.hamburger {
+    display: none;
+    background: transparent;
+    border: none;
+    margin-right: 10px;
+    font-size: 32px;
+    cursor: pointer;
+    color: #FFD000;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.mobileBlock {
+    height: 100vh;
+    width: 100%;
+    top: 64px;
+    left: -100%;
+    position: fixed;
+    background-color: #423C7A;
+    transition: all .5s;
+}
+
+.mobileBlock ul {
+    padding-left: 0;
+}
+
+.open {
+    left: 0;
+}
+
+@media(max-width: 965px) {
+    .logo span,
+    .mainList>li>a {
+        font-size: 20px;
+    }
+
+    .mainList>li{
+        padding-top: 11px;
+    }
+}
+
+@media(max-width: 840px) {
+    .mainList {
+        padding-left: 8px;
+    }
+}
+
+@media(max-width:800px) {
+    .content {
+        top: 35px;
+    }
+
+    .mainNavbarBlock {
+        display: none;
+    }
+
+    .mainList {
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navBar {
+        padding: 0;
+        justify-content: space-between;
+    }
+    .navBar .logo {
+        margin: 5px;
+    }
+}

@@ -1,0 +1,30 @@
+.about {
+    background: #423C7A;
+    padding: 40px;
+}
+
+.aboutTitle {
+    margin: 0 0 40px 0;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+
+.aboutTitleTextBtn {
+    max-width: 1518px;
+    margin: auto;
+}
+
+.aboutText {
+    font-size: 24px;
+    font-weight: 400;
+    margin: auto;
+    color: #ffffff;
+}
+
+.btnSize {
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+}

@@ -1,0 +1,40 @@
+.singleLatestNewsBlock{
+    margin: 22px;
+    max-width: 354px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.imgBlock{
+    min-width: 276px;
+}
+
+.imgBlock img{
+    width: 100%;
+}
+
+.newsInfo{
+    line-height: 30px;
+    padding: 15px;
+}
+
+.newsInfo > h2{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.newsInfo > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #54D16C;
+}
+
+.newsInfo > a:hover{
+    text-decoration: underline;
+}
+
+.date{
+    margin: 0;
+    padding: 6px 15px;
+    border-top: 2px solid grey;
+}

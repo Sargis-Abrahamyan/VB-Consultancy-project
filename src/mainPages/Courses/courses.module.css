@@ -1,0 +1,79 @@
+.mainCursesBlock {
+  padding-bottom: 34px;
+  background-color: #2E2A56;
+}
+
+.cursesBlock {
+  display: flex;
+  max-width: 1180px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.cursesHeading {
+  background-image: url('../../images-logos/background-about.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0 100px 0;
+}
+
+.cursesHeading h2 {
+  margin: 0;
+  font-size: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.mainMembershipLevels {
+  background-color: #2E2A57;
+  padding-bottom: 80px;
+}
+
+.mainMembershipLevels h2 {
+  margin: 0;
+  font-size: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.memberShipHeadinginAllCourses {
+  background-color: #2E2A56;
+  padding: 75px 0 15px;
+}
+
+.membershipHeading {
+  background-image: url('../../images-logos/background-about.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0 100px 0;
+}
+
+@media (max-width: 1165px) {
+  .cursesBlock {
+    max-width: 985px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 988px) {
+  .cursesHeading h2 {
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 800px) {
+
+  .memberShipHeadinginAllCourses h2,
+  .membershipHeading h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 669px) {
+  .cursesHeading h2 {
+    font-size: 17px;
+  }
+}

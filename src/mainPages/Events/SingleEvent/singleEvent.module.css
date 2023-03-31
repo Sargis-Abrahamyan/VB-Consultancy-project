@@ -1,0 +1,40 @@
+.singleEventBlock{
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 321px;
+    margin: 28px;
+}
+
+.datePart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.datePart p{
+    display: flex;
+    margin: 0;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px 15px;
+}
+
+.datePart p img{
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.title{
+    display: block;
+    color: #000000;
+    margin-top: 24px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title:hover{
+    color: #FFD000;
+}

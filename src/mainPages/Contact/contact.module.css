@@ -1,0 +1,25 @@
+.mainContact {
+    background-color: #2E2A57;
+}
+
+.contactHeading {
+    background-image: url('../../images-logos/background-about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0 100px 0;
+}
+
+.contactHeading h2 {
+    margin: 0;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.contactContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}

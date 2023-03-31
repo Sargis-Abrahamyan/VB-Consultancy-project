@@ -1,0 +1,17 @@
+.btnStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    border: none;
+    font-weight: 600;
+    transition: all 500ms;
+    text-decoration: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 12px;
+}
+
+.btnStyle:hover{
+    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.5);
+}

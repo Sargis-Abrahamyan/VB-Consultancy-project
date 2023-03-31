@@ -1,0 +1,134 @@
+.CursesContainer {
+    max-width: 1130px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.infoTitle {
+    text-align: center;
+}
+
+.cursesMoreInfoBlock {
+    max-width: 717px;
+    padding: 50px;
+    border-radius: 4px;
+    background: #FFFFFF;
+}
+
+.cursesMoreInfoBlockText {
+    height: 120px;
+    max-width: 584px;
+    margin: auto;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.infoDoneSize {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.infoDone {
+    max-width: 305px;
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+.infoDone > img {
+    padding: 10px;
+}
+
+.infoTitle {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 33px;
+}
+
+.infoItemDone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1182px) {
+    .CursesContainer {
+        max-width: 921px;
+    }
+    .cursesMoreInfoBlock {
+        max-width: 510px;
+    }
+
+    .infoDone {
+        max-width: 186px;
+        font-size: 12px;
+    }
+
+    .infoTitle {
+        font-size: 22px;
+    }
+
+    .cursesMoreInfoBlockText {
+        max-width: 344px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 855px) {
+    .cursesMoreInfoBlock {
+        max-width: 440px;
+        height: 695px;
+    }
+
+    .infoDone {
+        max-width: 168px;
+        font-size: 9px;
+    }
+
+    .cursesMoreInfoBlockText {
+        max-width: 301px;
+        font-size: 11px;
+    }
+
+    .infoDoneSize {
+        padding: 0 0;
+    }
+}
+
+
+@media (max-width: 501px) {
+    .cursesMoreInfoBlock {
+        max-width: 301px;
+        height: 100%;
+        padding: 16px;
+    }
+
+    .infoTitle {
+        font-size: 12px;
+        padding: 11px;
+    }
+
+    .cursesMoreInfoBlockText {
+        max-width: 245px;
+        font-size: 10px;
+    }
+
+    .infoDone {
+        max-width: 260px;
+        text-align: center;
+    }
+
+    .infoDone > img {
+        width: 30px;
+    }
+}

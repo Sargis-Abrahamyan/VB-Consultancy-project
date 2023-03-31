@@ -1,0 +1,119 @@
+.mainForm {
+    margin: 15px;
+    background-color: #FFFFFF;
+    max-width: 600px;
+    border-radius: 4px;
+    padding: 40px;
+    width: 100%;
+}
+
+.mainForm h3 {
+    margin: 0;
+}
+
+.mainForm h2 {
+    margin: 16px 0;
+    font-size: 48px;
+}
+
+.mainForm .line {
+    background-color: #FFD000;
+    display: inline-block;
+    height: 3px;
+    margin-top: 13px;
+    width: 42px;
+}
+
+.mainForm input,
+.textArea>textArea {
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #e0e0e0;
+    padding: 10px 12px;
+    outline: none;
+    color: #8a8a8a;
+    overflow: hidden;
+    font-size: 15px;
+    border-radius: 3px;
+    transition: .6s;
+}
+
+.firstLine {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.firstLine div {
+    width: 250px;
+}
+
+.firstLine div input {
+    width: 100%;
+}
+
+.email,
+.subject {
+    margin: 20px 0;
+}
+
+.email input,
+.subject input,
+.textArea textarea {
+    width: 100%;
+}
+
+.firstLine input::placeholder {
+    color: #8a8a8a;
+}
+
+.mainForm input:focus,
+.textArea>textArea:focus {
+    border: 1px solid #2E2A57;
+}
+
+.submitBtn {
+    display: block;
+    color: #2E2A57;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    width: 138px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: rgb(255, 208, 0);
+    font-size: 20px;
+}
+
+.submitBtn:hover {
+    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media(max-width: 1140px) {
+    .firstLine div {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .mainForm h2 {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:452px) {
+    .mainForm h2 {
+        font-size: 23px;
+    }
+}
+
+@media(max-width:400px) {
+    .mainForm{
+        padding: 20px;
+    }
+}
+
+@media(max-width:352px) {
+    .mainForm {
+        margin: 15px 0px;
+    }
+}

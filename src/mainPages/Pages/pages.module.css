@@ -1,0 +1,117 @@
+.aboutUs {
+    background-color: #2E2A56;
+    padding-bottom: 100px;
+}
+
+.whyChooseUsBlock {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.aboutUs h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.aboutUsHeading {
+    background-image: url('../../images-logos/background-about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0 100px 0;
+}
+
+.aboutUsHeading h2 {
+    margin: 0;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.infoAndPic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoAndPic p {
+    color: #FFFFFF;
+    margin-right: 60px;
+    font-size: 24px;
+    max-width: 550px;
+}
+
+.chooseBlock {
+    max-width: 342px;
+    margin: 20px;
+}
+
+.boyImg {
+    width: 500px;
+    height: 285px;
+}
+
+.boyImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.chooseBlock h2 {
+    color: #FFFFFF;
+}
+
+.chooseBlock .info {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.nums {
+    color: #C9B1D8;
+    font-size: 64px;
+    font-weight: 800;
+    margin: 0;
+}
+
+@media(max-width: 1170px) {
+    .infoAndPic p {
+        margin-right: 0;
+    }
+}
+
+@media(max-width:1050px) {
+    .boyImg {
+        width: 550px;
+    }
+}
+
+@media(max-width: 720px) {
+    .aboutUsHeading h2 {
+        font-size: 35px;
+    }
+
+    .aboutUs h3 {
+        font-size: 30px;
+    }
+
+    .infoAndPic p {
+        font-size: 20px;
+    }
+
+    .infoAndPic p,
+    .boyImg {
+        max-width: 460px;
+    }
+}
+
+@media(max-width:550px) {
+
+    .infoAndPic p,
+    .boyImg {
+        max-width: 380px;
+    }
+}

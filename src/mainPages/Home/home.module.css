@@ -1,0 +1,65 @@
+.mainHomeContainer {
+    background-image: url('../../images-logos/Home\ -Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 165px 165px 165px;
+}
+
+.homeInfo {
+    max-width: 650px;
+}
+
+.homeInfo h2 {
+    font-size: 32px;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.homeInfo p {
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.btnControl {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 800px) {
+    .mainHomeContainer {
+        background-position: center;
+        padding: 100px;
+    }
+}
+
+@media(max-width:700px) {
+    .mainHomeContainer{
+        padding: 100px 30px;
+    }
+
+    .homeInfo h2 {
+        font-size: 28px;
+    }
+
+    .homeInfo p {
+        font-size: 18px;
+    }
+
+    .btnControl{
+        margin-top: 30px;
+    }
+
+    .btnControl a{
+        font-size: 18px;
+        width: 140px !important;
+        height: 48px !important;
+    }
+}
+
+@media(max-width: 436px){
+    .btnControl{
+        justify-content: center;
+    }
+}

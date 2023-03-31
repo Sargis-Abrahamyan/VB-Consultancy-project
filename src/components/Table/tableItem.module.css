@@ -1,0 +1,158 @@
+.table {
+    margin: 70px auto 0;
+    color: #ffffff;
+}
+
+.title {
+    width: 100px;
+}
+
+.tbody {
+    display: flex;
+    justify-content: center;
+}
+
+.list1>td {
+    width: 472px;
+}
+
+.listTh {
+    max-width: 478px;
+}
+
+td {
+    width: 178px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+th {
+    height: 113px;
+    max-width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+@media (max-width: 1120px) {
+    .tableContainerBac {
+        padding: 100px 0;
+    }
+
+    .tableTitle {
+        font-size: 35px;
+    }
+
+    .list1 td {
+        width: 260px;
+        font-size: 12px;
+    }
+
+    th {
+        height: 80px;
+        font-size: 14px;
+    }
+
+    td {
+        width: 150px;
+    }
+}
+
+@media (max-width: 800px) {
+    .tableContainerBac {
+        padding: 80px 0;
+    }
+
+    .tableTitle {
+        font-size: 28px;
+    }
+
+    .list1 td {
+        width: 175px;
+        text-align: center;
+    }
+
+    td {
+        width: 104px;
+        height: 60px;
+        font-size: 16px;
+    }
+
+    th {
+        height: 55px;
+    }
+}
+
+@media (max-width: 575px) {
+    .tableContainerBac {
+        padding: 42px 0;
+    }
+
+    .tableTitle {
+        font-size: 26px;
+    }
+
+    .list1 td {
+        width: 105px;
+        text-align: center;
+        font-size: 9px;
+    }
+
+    td {
+        width: 75px;
+        height: 50px;
+        font-size: 13px;
+    }
+
+    td img {
+        width: 10px;
+    }
+
+    th {
+        height: 55px;
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 377px) {
+    .tableContainerBac {
+        padding: 32px 0;
+    }
+
+    .tableTitle {
+        font-size: 13px;
+    }
+
+    .list1 td {
+        width: 81px;
+        text-align: center;
+        font-size: 6px;
+    }
+
+    td {
+        width: 55px;
+        height: 33px;
+        font-size: 11px;
+    }
+
+
+    td img {
+        width: 8px;
+    }
+
+    th {
+        height: 40px;
+        font-size: 8px;
+    }
+}

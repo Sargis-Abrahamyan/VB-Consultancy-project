@@ -1,0 +1,45 @@
+.singleListBlock{
+    margin: 0 65px;
+}
+
+.singleListHeading{
+    margin-top: 0;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.singleList{
+    padding: 0;
+    margin: 0;
+}
+
+.singleList li{
+    list-style: none;
+    line-height: 35px;
+}
+
+.singleList li a{
+    color: #FFFFFF;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.singleList li a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:768px){
+    .singleListHeading{
+        font-size: 20px;
+    }
+    .singleList li a{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 640px){
+    .singleListBlock{
+        width: 233px;
+        margin: 0;
+    }
+}

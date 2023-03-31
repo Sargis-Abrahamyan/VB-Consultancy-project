@@ -1,0 +1,83 @@
+
+.moreInfoAboutEvent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.videoPart{
+    max-width: 339px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #FCFCFC;
+}
+
+.videoPartBlock{
+    padding-bottom: 80px;
+}
+
+.videoPart p{
+    max-width: 285px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 21px 0 9px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.videoPart p span:first-child{
+    display: flex;
+    align-items: center;
+}
+
+.videoPart p span img{
+    margin-right: 20px;
+}
+
+.videoPart p:last-child{
+    border-bottom: none;
+}
+
+.backToCursesBtn{
+    width: 342px;
+    display: flex;
+    justify-content: end;
+    margin-top: 361px;
+}
+
+.backToCursesBtn>a{
+    margin: 0;
+}
+
+@media (max-width: 855px) {
+    .backToCursesBtn{
+        margin-top: 19px;
+    }
+
+    .videoPart{
+        margin: 17px auto;
+    }
+}
+
+@media (max-width: 790px) {
+    .backToCursesBtn{
+        margin-top: 19px;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 501px) {
+    .videoPart{
+        max-width: 295px;
+        margin: 18px auto;
+    }
+
+    .videoPart p{
+        max-width: 240px;
+    }
+
+    .backToCursesBtn{
+        width: 320px;
+    }
+}

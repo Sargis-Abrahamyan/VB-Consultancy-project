@@ -1,0 +1,66 @@
+.singleCursesBlock {
+    margin: 21px;
+}
+
+.starsNameSurName {
+    max-width: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 225px;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 4px;
+}
+
+.StarNameSurNameContainer p span {
+    display: flex;
+    align-items: center;
+}
+
+.StarNameSurNameContainer {
+    justify-content: center;
+    margin: 0;
+    color: #FFFFFF;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 13px 15px;
+}
+
+.starsNameSurName p img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.cursesInfo {
+    width: 346px;
+    height: 94px;
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    color: #000000;
+    background: #ffff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.cursesInfo:hover {
+    color: #FFD000;
+}
+
+@media (max-width: 1165px) {
+    .starsNameSurName {
+        height: 193px;
+        max-width: 286px;
+    }
+
+    .cursesInfo {
+        width: 286px;
+        font-size: 19px;
+    }
+
+    .starsNameSurName>.StarNameSurNameContainer {
+        padding: 7px 15px;
+    }
+}
